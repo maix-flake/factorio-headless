@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
     factorio-headless-src = {
-      url = "file+https://www.factorio.com/get-download/stable/headless/linux64";
+      url = "tarball+https://www.factorio.com/get-download/stable/headless/linux64";
       flake = false;
     };
   };

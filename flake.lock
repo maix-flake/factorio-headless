@@ -1,0 +1,39 @@
+{
+  "nodes": {
+    "factorio-headless-src": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-LUo2KvNNOGZhH8uAdY+dqzTuyY8JBOMsxqZ13sZGNd0=",
+        "type": "file",
+        "url": "https://www.factorio.com/get-download/stable/headless/linux64"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://www.factorio.com/get-download/stable/headless/linux64"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1729509625,
+        "narHash": "sha256-dQ85bJURM14+LCkCUHG+ANoDHzSkEPg3dLQ5tUlnRD0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "64b2308de14a14ed70e1133f59abe42b3b6e980a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "factorio-headless-src": "factorio-headless-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

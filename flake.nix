@@ -17,7 +17,7 @@
     packages.x86_64-linux.factorio-headless = let
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
     in
-      pkgs.stdenvNoCC.mkDerivation {
+      pkgs.stdenv.mkDerivation {
         name = "factorio-headless";
         src = inputs.factorio-headless-src;
         preferLocalBuild = true;

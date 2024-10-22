@@ -3,23 +3,23 @@
     "factorio-headless-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1729449905,
-        "narHash": "sha256-C3Sx4YHVDt9+ZFDY/u/+0KDzzXjOyvpzU4s1pzoGXv0=",
+        "lastModified": 1729623410,
+        "narHash": "sha256-0P73++nWA5unPlbI59CSpWjl2pVw47HNl2RneHZMIFU=",
         "type": "tarball",
-        "url": "https://www.factorio.com/get-download/stable/headless/linux64"
+        "url": "https://factorio.com/get-download/2.0.8/headless/linux64"
       },
       "original": {
         "type": "tarball",
-        "url": "https://www.factorio.com/get-download/stable/headless/linux64"
+        "url": "https://factorio.com/get-download/2.0.8/headless/linux64"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1729509625,
-        "narHash": "sha256-dQ85bJURM14+LCkCUHG+ANoDHzSkEPg3dLQ5tUlnRD0=",
+        "lastModified": 1729622246,
+        "narHash": "sha256-SUNZFN/B57S+aNAc/VYIZ0kcw38kt1NBIe3SMhz0GSY=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "64b2308de14a14ed70e1133f59abe42b3b6e980a",
+        "rev": "da62a01cf93c85935a44fb63dac3802bded0a954",
         "type": "github"
       },
       "original": {
